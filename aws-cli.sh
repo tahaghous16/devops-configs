@@ -93,6 +93,12 @@ echo $AWS_PROFILE
 unset AWS_PROFILE
 
 
+# Make the custom profile the default permanently
+# example:
+echo 'export AWS_PROFILE=taha-cli' >> ~/.bashrc
+source ~/.bashrc
+
+
 # ------------------------------------------------------------
 # 12. View AWS Credentials File
 # ------------------------------------------------------------
